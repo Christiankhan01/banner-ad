@@ -1,0 +1,160 @@
+body {
+    background-color: grey;
+}
+
+#banner {
+   height: 90px;
+   width:800px;
+   background-color: #010941;
+   border-radius: 15px;
+   position: relative;
+   opacity: 0;
+   font: 0.9em Verdana, Helvetica, sans-serif;
+   color: white;
+   /*overflow: hidden;*/
+}
+
+#quote {
+	font:3em Verdana, Helvetica, sans-serif;
+	color: #f5deb3;
+	float: left;
+	margin: 10px 0 0 0;
+	padding:0; 
+}
+ 
+#bouncyGreen {
+	
+	font:2.5em Georgia, Times, serif;
+    font-style: bold;
+	float: left;
+	color: aqua;
+    letter-spacing: 0.08em; 
+	margin: 10px 0 0 0;/*0ld was margin-top:-11px*/
+	padding:0;
+    margin: 25px 0 0 10px;
+}
+
+#robot{
+	position:absolute;
+	left:10px;
+	top:0px;
+	margin:0;
+	padding:0;
+	z-index: 6;
+}
+ 
+h1#contactMe{
+	font-family: Georgia, Times, serif;
+	font-size: 1.5em;
+	color:aqua;
+	position:absolute;
+	left: 90px;
+	top:10px;
+	margin:0;
+	padding:0;
+	z-index:8;
+}
+h2#phoneNumber{
+	font-family: Georgia, Times, serif;
+	font-size: 1.0em;
+	letter-spacing: 3px;
+	color:#f5deb3;
+	position:absolute;
+	left:90px;
+	top:45px;
+	margin:0;
+	padding:0;
+	z-index:7;	
+}
+#trapazoid2{
+	background-color: #010941;
+	position:absolute;
+	left:39px;
+	top:0;
+	height:90px;
+	width:400px;
+	margin:0;
+	padding:0;
+	-moz-transform: skew(-22deg, 0deg);
+	-webkit-transform: skew(-22deg, 0deg);
+	-o-transform: skew(-22deg, 0deg);
+	-ms-transform: skew(-22deg, 0deg);
+	transform: skew(-22deg, 0deg);
+	opacity:1;
+	z-index: 5;
+}
+#potato {
+    height: 90px;
+    width: 450px;
+    background-color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    position:absolute;
+    left:20px;
+    top:0;
+     -ms-transform: scale(0.5,1); /* IE 9 */
+     -webkit-transform: scale(0.5,1); /* Safari */
+     transform: scale(0.5,1); /* Standard syntax */
+    /*opacity: 0;*/
+    z-index: 2;
+  }
+#pitchWrapper{
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    z-index: 9; 
+}
+h1#name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color:#333;
+	position:absolute;
+	left: 290px;
+	top:0px;
+	margin:0;
+	padding:0;
+	z-index: 3;
+}
+
+#description {
+	position:absolute;
+	left:200px;
+	top:31px;
+	margin:0;
+	padding:0;	
+	color:#9E5111;
+	width:200px;
+	z-index: 4;
+}
+#banner a#home {
+	display:block;
+	position:absolute;
+	top:25px;
+	right: 0px;
+	color: rgb(230, 230, 230);
+	font-size: 1.2em;
+	text-decoration: none;
+	padding: 5px;
+	text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+	-webkit-border-radius: 19.864864864864863px;
+	-moz-border-radius: 19.864864864864863px;
+	border-radius: 19.864864864864863px;
+	background: rgb(176, 1, 42);
+	background: -moz-linear-gradient(90deg, rgb(176, 1, 42) 30%, rgb(250, 20, 0) 70%);
+	background: -webkit-linear-gradient(90deg, rgb(176, 1, 42) 30%, rgb(250, 20, 0) 70%);
+	background: -o-linear-gradient(90deg, rgb(176, 1, 42) 30%, rgb(250, 20, 0) 70%);
+	background: -ms-linear-gradient(90deg, rgb(176, 1, 42) 30%, rgb(250, 20, 0) 70%);
+	background: linear-gradient(0deg, rgb(176, 1, 42) 30%, rgb(250, 20, 0) 70%);
+	-webkit-box-shadow: 5px 8px 7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    5px 8px 7px rgba(50, 50, 50, 0.75);
+	box-shadow:         5px 8px 7px rgba(50, 50, 50, 0.75);
+   -ms-transform: scale(0.3,0.3); /* IE 9 */
+   -webkit-transform: scale(0.3,0.3); /* Safari */
+   transform: scale(0.3,0.3); /* Standard syntax */
+/*http://css3gen.com/button-generator/*/
+	opacity:0;
+	z-index: 10;
+
+}
+
